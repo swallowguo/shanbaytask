@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words1">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos1">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans1">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words2">
+        <item>beast</item><item>census</item><item>acre</item><item>content</item>
+    </string-array>
+    <string-array name="pos2">
+        <item>n.</item><item>n.</item><item>n.</item><item>adj.</item>
+    </string-array>
+    <string-array name="wordtrans2">
+        <item>野兽</item><item>统计数字</item><item>英亩</item><item>满足的</item>
+    </string-array> <string-array name="words3">
+    <item>Matterhorn</item><item>alpinist</item><item>pioneer</item><item>summit</item><item>attain</item><item>perilous</item>
+    <item>shudder</item><item>court</item><item>solitary</item><item>impoverish</item><item>Alpine</item><item>flea-ridden</item>
+    <item>coarse</item><item>boast</item><item>parishioner</item><item>shepherd</item><item>linen</item><item>the Alps</item>
+</string-array>
+    <string-array name="pos3">
+        <item>n.</item><item>n.</item><item>v./n.</item><item>n.</item><item>v.</item><item>adj.</item>
+        <item>v.</item><item>v.</item><item>adj.</item><item>v.</item><item>adj.</item><item>adj.</item>
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans3">
+        <item>马特霍恩峰（阿尔卑斯山之一，在意大利和瑞士边境）</item><item>登山运动员</item><item>开辟，倡导/先锋，开辟者</item><item>顶峰</item><item>到达</item><item>危险的</item>
+        <item>不寒而栗</item><item>追求</item><item>唯一的</item><item>使贫困</item><item>阿尔卑斯山的</item><item>布满跳蚤的</item>
+        <item>粗劣的</item><item>自恃有</item><item>教区居民</item><item>牧羊人</item><item>亚麻布床单</item><item>阿尔卑斯山脉</item>
+    </string-array> <string-array name="words4">
+    <item>solid</item><item>safe</item><item>Ulyanovsk</item><item>commission</item><item>opaque</item><item>lotto</item>
+    <item>slipper</item><item>blindfold</item>
+</string-array>
+    <string-array name="pos4">
+        <item>adj.</item><item>n.</item><item>n.</item><item>n.</item><item>adj.</item><item>n.</item>
+        <item>n.</item><item>adj./adv.</item>
+    </string-array>
+    <string-array name="wordtrans4">
+        <item>坚实的</item><item>保险柜</item><item>乌里扬诺夫斯克</item><item>委员会</item><item>不透明的</item><item>一种有编号的纸牌</item>
+        <item>拖鞋</item><item>被蒙上眼睛的</item>
+    </string-array> <string-array name="words5">
+    <item>leave</item><item>fundamentals</item><item>glorious</item><item>splendid</item><item>rub</item><item>identity</item>
+    <item>dreary</item><item>commitment</item><item>mean</item><item>social climber</item><item>devotion</item><item>cosmic</item>
+    <item>suburban</item><item>conceited</item><item>presumptuous</item><item>fatuous</item><item>cliche</item>
+</string-array>
+    <string-array name="pos5">
+        <item>n.</item><item>n.</item><item>adj.</item><item>adj.</item><item>n.</item><item>n.</item>
+        <item>adj.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>adj.</item>
+        <item>adj.</item><item>adj.</item><item>adj.</item><item>adj.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans5">
+        <item>允许</item><item>基本原则</item><item>光辉灿烂的</item><item>灿烂的</item><item>难题</item><item>身份</item>
+        <item>沉郁的</item><item>信奉</item><item>吝啬，小气</item> <item>追求更高社会地位的，向上爬的人</item><item>热爱</item><item>宇宙的</item>
+        <item>见识不广的，偏狭的</item><item>自高自大的</item><item>自以为是的，放肆的</item><item>愚蠢的</item><item>陈词滥调</item>
+    </string-array> <string-array name="words6">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos6">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans6">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words7">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos7">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans7">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words8">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos8">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans8">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words9">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos9">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans9">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words10">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos10">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans10">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words11">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos11">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans11">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words12">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos12">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans12">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words13">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos13">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans13">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words14">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos14">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans14">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words15">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos15">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans15">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words16">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos16">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans16">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words17">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos17">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans17">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words18">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos18">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans18">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words19">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos19">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans19">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words20">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos20">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans20">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>    <string-array name="words21">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos21">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans21">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words22">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos22">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans22">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words23">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos23">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans23">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words24">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos24">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans24">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words25">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos25">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans25">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words26">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos26">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans26">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words27">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos27">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans27">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words28">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos28">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans28">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words29">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos29">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans29">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words30">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos30">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans30">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>    <string-array name="words31">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos31">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans31">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words32">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos32">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans32">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words33">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos33">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans33">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words34">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos34">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans34">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words35">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos35">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans35">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words36">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos36">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans36">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words37">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos37">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans37">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words38">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos38">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans38">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words39">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos39">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans39">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words40">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos40">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans40">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>    <string-array name="words41">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos41">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans41">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+    <string-array name="words42">
+        <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+        <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+    </string-array>
+    <string-array name="pos42">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans42">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words43">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos43">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans43">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words44">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos44">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans44">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words45">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos45">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans45">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words46">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos46">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans46">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words47">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos47">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans47">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array> <string-array name="words48">
+    <item>fossil man</item><item>recount</item><item>saga</item><item>legend</item><item>migration</item><item>anthropologist</item>
+    <item>archaeologist</item><item>ancestor</item><item>Polynesian</item><item>Indonesia</item><item>flint</item><item>rot</item>
+</string-array>
+    <string-array name="pos48">
+        <item>adj.</item><item>v.</item><item>n.</item><item>n.</item><item>n.</item><item>n.</item>
+        <item>n.</item><item>n.</item><item>adj.</item><item>n.</item><item>n.</item><item>n.</item>
+    </string-array>
+    <string-array name="wordtrans48">
+        <item>化石人</item><item>叙述</item><item>英雄故事</item><item>传说，传奇</item><item>迁移，移居</item><item>人类学家</item>
+        <item>考古学家</item><item>祖先</item><item>波利尼西亚（中太平洋之一群岛）的</item> <item>印度尼西亚</item><item>燧石</item><item>烂掉</item>
+    </string-array>
+</resources>

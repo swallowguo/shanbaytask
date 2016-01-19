@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+<!-- 定义一个ImageView，用于作为列表项的一部分。 -->
+<TextView android:id="@+id/lesson"
+	android:layout_width="60dp"
+	android:layout_height="match_parent"
+	android:paddingLeft="10dp"
+	android:textSize="15dp"
+	android:gravity="center"/>
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+<!-- 定义一个TextView，用于作为列表项的一部分。 -->
+<TextView android:id="@+id/english_title"
+	android:layout_width="260dp"
+	android:layout_height="wrap_content"
+	android:textSize="20dp"
+	android:textColor="#f0f"
+	android:ellipsize="end"
+	android:singleLine="true"
+	android:paddingLeft="10dp"/>
+<!-- 定义一个TextView，用于作为列表项的一部分。 -->
+<TextView android:id="@+id/chinese_title"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="14dp"
+	android:paddingLeft="10dp"/>
+</LinearLayout>
+</LinearLayout>

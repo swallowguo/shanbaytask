@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson_id">
+        <item>lesson1</item><item>lesson2</item><item>lesson3</item><item>lesson4</item><item>lesson5</item><item>lesson6</item><item>lesson7</item><item>lesson8</item>
+        <item>lesson9</item><item>lesson10</item><item>lesson11</item><item>lesson12</item><item>lesson13</item><item>lesson14</item><item>lesson15</item><item>lesson16</item>
+        <item>lesson17</item><item>lesson18</item><item>lesson19</item><item>lesson20</item><item>lesson21</item><item>lesson22</item><item>lesson23</item><item>lesson24</item>
+        <item>lesson25</item><item>lesson26</item><item>lesson27</item><item>lesson28</item><item>lesson29</item><item>lesson30</item><item>lesson31</item><item>lesson32</item>
+        <item>lesson33</item><item>lesson34</item><item>lesson35</item><item>lesson36</item><item>lesson37</item><item>lesson38</item><item>lesson39</item><item>lesson40</item>
+        <item>lesson41</item><item>lesson42</item><item>lesson43</item><item>lesson44</item><item>lesson45</item><item>lesson46</item><item>lesson47</item><item>lesson48</item>
+    </string-array>
+    <string-array name="english_title">
+        <item>Finding fossil man</item><item>Spare that spider</item><item>Matterhorn man</item><item>Seeing hands</item>
+        <item>Youth</item><item>The sporting spirit</item><item>Bats</item><item>Trading standards</item>
+        <item>Royal espionage</item><item>Silicon valley</item><item>How to grow old</item><item>Banks and their customers</item>
+        <item>The search for oil</item><item>The Butterfly Effect</item><item>Secrecy in industry</item><item>The modern city</item>
+        <item>A man-made disease</item><item>Porpoises</item><item>The stuff of dreams</item><item>Snake poison</item>
+        <item>William S. Hart and the early Western film</item><item>Knowledge and progress</item><item>Bird flight</item><item>Beatuy</item>
+        <item>Non-auditory effects of noise</item><item> The past life of the earth</item><item>The Vasa</item><item>Patients and doctors</item>
+        <item>The hovercraft</item><item>Exploring the sea-floor</item><item>The sculptor speaks</item><item>Galileo reborn</item>
+        <item>Education</item><item>Adolescence</item><item>Space odyssey</item><item>The cost of government</item>
+        <item>The process of ageing</item><item>Water and the traveller</item><item>What every writer wants</item><item>Waves</item>
+        <item>Training elephants</item><item>Recording an earthquake</item><item>Are there strangers in space?</item><item>Patterns of culture</item>
+        <item>Of men and galaxies</item><item>Hobbies</item><item>The great escape</item><item>Planning a share portfolio</item>
+    </string-array>
+    <string-array name="chinese_title">
+        <item>发现化石人</item><item>不要伤害蜘蛛</item><item>马特霍恩山区人</item><item>能看见东西的手</item>
+        <item>青年</item><item>体育的精神</item><item>蝙蝠</item><item>贸易标准</item>
+        <item>王室谍报活动</item><item>硅谷</item><item>如何安度晚年</item><item>银行和顾客</item>
+        <item>探寻石油</item><item>蝴蝶效应</item><item>工业中的秘密</item><item>现代城市</item>
+        <item>人为的疾病</item><item>海豚</item><item>话说梦的本质</item><item>蛇毒</item>
+        <item>威廉.S. 哈特和早期限的‘西部’影片</item><item>知识和进步</item><item>鸟的飞行方法</item><item>美</item>
+        <item>噪音的非听觉效应</item><item>地球上的昔日生命</item><item>“瓦萨”号</item><item>病人与医生</item>
+        <item>气垫船</item><item>海底勘探</item><item>雕塑家的语言</item><item>伽利略的复生</item>
+        <item>教育</item><item>青春期</item><item>太空探索</item><item>政府的开支</item>
+        <item>衰老过程</item><item>水和旅行者</item><item>作家之所需</item><item>海浪</item>
+        <item>训练大象</item><item>记录地震</item><item>宇宙中有外星人吗？</item><item>文化的模式</item>
+        <item>人和星系</item><item>业余爱好</item><item>大逃亡</item><item>规划股份投资</item>
+    </string-array>
+    <string-array name="question">
+        <item>Why are legends handed down by storytellers useful?</item><item>How much of each year do spiders spend killing insects?</item>
+        <item>What was the main objective of early mountain climbers?</item><item>能看见东西的手</item>
+        <item>青年</item><item>体育的精神</item><item>蝙蝠</item><item>贸易标准</item>
+        <item>王室谍报活动</item><item>硅谷</item><item>如何安度晚年</item><item>银行和顾客</item>
+        <item>探寻石油</item><item>蝴蝶效应</item><item>工业中的秘密</item><item>现代城市</item>
+        <item>人为的疾病</item><item>海豚</item><item>话说梦的本质</item><item>蛇毒</item>
+        <item>威廉.S. 哈特和早期限的‘西部’影片</item><item>知识和进步</item><item>鸟的飞行方法</item><item>美</item>
+        <item>噪音的非听觉效应</item><item>地球上的昔日生命</item><item>“瓦萨”号</item><item>病人与医生</item>
+        <item>气垫船</item><item>海底勘探</item><item>雕塑家的语言</item><item>伽利略的复生</item>
+        <item>教育</item><item>青春期</item><item>太空探索</item><item>政府的开支</item>
+        <item>衰老过程</item><item>水和旅行者</item><item>作家之所需</item><item>海浪</item>
+        <item>训练大象</item><item>记录地震</item><item>宇宙中有外星人吗？</item><item>文化的模式</item>
+        <item>人和星系</item><item>业余爱好</item><item>大逃亡</item><item>规划股份投资</item>
+    </string-array>
+    <string-array name="text_id">
+        <item>@raw/lesson1</item><item>@raw/lesson2</item><item>@raw/lesson3</item><item>@raw/lesson4</item><item>@raw/lesson5</item><item>@raw/lesson6</item>
+        <item>@raw/lesson7</item><item>@raw/lesson8</item><item>@raw/lesson9</item><item>@raw/lesson10</item><item>@raw/lesson11</item><item>@raw/lesson12</item>
+        <item>@raw/lesson13</item><item>@raw/lesson14</item><item>@raw/lesson15</item><item>@raw/lesson16</item><item>@raw/lesson17</item><item>@raw/lesson18</item>
+        <item>@raw/lesson19</item><item>@raw/lesson20</item><item>@raw/lesson21</item><item>@raw/lesson22</item><item>@raw/lesson23</item><item>@raw/lesson24</item>
+        <item>@raw/lesson25</item><item>@raw/lesson26</item><item>@raw/lesson27</item><item>@raw/lesson28</item><item>@raw/lesson29</item><item>@raw/lesson30</item>
+        <item>@raw/lesson31</item><item>@raw/lesson32</item><item>@raw/lesson33</item><item>@raw/lesson34</item><item>@raw/lesson35</item><item>@raw/lesson36</item>
+        <item>@raw/lesson37</item><item>@raw/lesson38</item><item>@raw/lesson39</item><item>@raw/lesson40</item><item>@raw/lesson41</item><item>@raw/lesson42</item>
+        <item>@raw/lesson43</item><item>@raw/lesson44</item><item>@raw/lesson45</item><item>@raw/lesson46</item><item>@raw/lesson47</item><item>@raw/lesson48</item>
+    </string-array>
+    <string-array name="trans_id">
+        <item>@raw/translation1</item><item>@raw/translation2</item><item>@raw/translation3</item><item>@raw/translation4</item><item>@raw/translation5</item><item>@raw/translation6</item>
+        <item>@raw/translation7</item><item>@raw/translation8</item><item>@raw/translation9</item><item>@raw/translation10</item><item>@raw/translation11</item><item>@raw/translation12</item>
+        <item>@raw/translation13</item><item>@raw/translation14</item><item>@raw/translation15</item><item>@raw/translation16</item><item>@raw/translation17</item><item>@raw/translation18</item>
+        <item>@raw/translation19</item><item>@raw/translation20</item><item>@raw/translation21</item><item>@raw/translation22</item><item>@raw/translation23</item><item>@raw/translation24</item>
+        <item>@raw/translation25</item><item>@raw/translation26</item><item>@raw/translation27</item><item>@raw/translation28</item><item>@raw/translation29</item><item>@raw/translation30</item>
+        <item>@raw/translation31</item><item>@raw/translation32</item><item>@raw/translation33</item><item>@raw/translation34</item><item>@raw/translation35</item><item>@raw/translation36</item>
+        <item>@raw/translation37</item><item>@raw/translation38</item><item>@raw/translation39</item><item>@raw/translation40</item><item>@raw/translation41</item><item>@raw/translation42</item>
+        <item>@raw/translation43</item><item>@raw/translation44</item><item>@raw/translation45</item><item>@raw/translation46</item><item>@raw/translation47</item><item>@raw/translation48</item>
+    </string-array>
+    <string-array name="words_id">
+        <item>@array/words1</item><item>@array/words2</item><item>@array/words3</item><item>@array/words4</item><item>@array/words5</item><item>@array/words6</item>
+        <item>@array/words7</item><item>@array/words8</item><item>@array/words9</item><item>@array/words10</item><item>@array/words11</item><item>@array/words12</item>
+        <item>@array/words13</item><item>@array/words14</item><item>@array/words15</item><item>@array/words16</item><item>@array/words17</item><item>@array/words18</item>
+        <item>@array/words19</item><item>@array/words20</item><item>@array/words21</item><item>@array/words22</item><item>@array/words23</item><item>@array/words24</item>
+        <item>@array/words25</item><item>@array/words26</item><item>@array/words27</item><item>@array/words28</item><item>@array/words29</item><item>@array/words30</item>
+        <item>@array/words31</item><item>@array/words32</item><item>@array/words33</item><item>@array/words34</item><item>@array/words35</item><item>@array/words36</item>
+        <item>@array/words37</item><item>@array/words38</item><item>@array/words39</item><item>@array/words40</item><item>@array/words41</item><item>@array/words42</item>
+        <item>@array/words43</item><item>@array/words44</item><item>@array/words45</item><item>@array/words46</item><item>@array/words47</item><item>@array/words48</item>
+    </string-array>
+    <string-array name="pos_id">
+        <item>@array/pos1</item><item>@array/pos2</item><item>@array/pos3</item><item>@array/pos4</item><item>@array/pos5</item><item>@array/pos6</item>
+        <item>@array/pos7</item><item>@array/pos8</item><item>@array/pos9</item><item>@array/pos10</item><item>@array/pos11</item><item>@array/pos12</item>
+        <item>@array/pos13</item><item>@array/pos14</item><item>@array/pos15</item><item>@array/pos16</item><item>@array/pos17</item><item>@array/pos18</item>
+        <item>@array/pos19</item><item>@array/pos20</item><item>@array/pos21</item><item>@array/pos22</item><item>@array/pos23</item><item>@array/pos24</item>
+        <item>@array/pos25</item><item>@array/pos26</item><item>@array/pos27</item><item>@array/pos28</item><item>@array/pos29</item><item>@array/pos30</item>
+        <item>@array/pos31</item><item>@array/pos32</item><item>@array/pos33</item><item>@array/pos34</item><item>@array/pos35</item><item>@array/pos36</item>
+        <item>@array/pos37</item><item>@array/pos38</item><item>@array/pos39</item><item>@array/pos40</item><item>@array/pos41</item><item>@array/pos42</item>
+        <item>@array/pos43</item><item>@array/pos44</item><item>@array/pos45</item><item>@array/pos46</item><item>@array/pos47</item><item>@array/pos48</item>
+    </string-array>
+    <string-array name="wordtrans_id">
+        <item>@array/wordtrans1</item><item>@array/wordtrans2</item><item>@array/wordtrans3</item><item>@array/wordtrans4</item><item>@array/wordtrans5</item><item>@array/wordtrans6</item>
+        <item>@array/wordtrans7</item><item>@array/wordtrans8</item><item>@array/wordtrans9</item><item>@array/wordtrans10</item><item>@array/wordtrans11</item><item>@array/wordtrans12</item>
+        <item>@array/wordtrans13</item><item>@array/wordtrans14</item><item>@array/wordtrans15</item><item>@array/wordtrans16</item><item>@array/wordtrans17</item><item>@array/wordtrans18</item>
+        <item>@array/wordtrans19</item><item>@array/wordtrans20</item><item>@array/wordtrans21</item><item>@array/wordtrans22</item><item>@array/wordtrans23</item><item>@array/wordtrans24</item>
+        <item>@array/wordtrans25</item><item>@array/wordtrans26</item><item>@array/wordtrans27</item><item>@array/wordtrans28</item><item>@array/wordtrans29</item><item>@array/wordtrans30</item>
+        <item>@array/wordtrans31</item><item>@array/wordtrans32</item><item>@array/wordtrans33</item><item>@array/wordtrans34</item><item>@array/wordtrans35</item><item>@array/wordtrans36</item>
+        <item>@array/wordtrans37</item><item>@array/wordtrans38</item><item>@array/wordtrans39</item><item>@array/wordtrans40</item><item>@array/wordtrans41</item><item>@array/wordtrans42</item>
+        <item>@array/wordtrans43</item><item>@array/wordtrans44</item><item>@array/wordtrans45</item><item>@array/wordtrans46</item><item>@array/wordtrans47</item><item>@array/wordtrans48</item>
+    </string-array>
+</resources>
