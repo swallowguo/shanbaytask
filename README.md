@@ -7,6 +7,10 @@
 5. 文章内容实现两边对齐
 6. 单词实现点击高亮
 
-    下图TextFragment界面的示意图，包括slide-bar、生词switch、取词switch和用于显示的TextView。生词switch负责开启和关闭功能3：高亮在单词列表中出现的单词；取词switch负责开启和关闭功能6：单词实现点击高亮；slide-bar可以在任何时候滑动，最终停留的状态将影响高亮单词的等级；TextView实现了两边对齐排版，效果不错，但是每一段的首行有些不太理想。
+下图TextFragment界面的示意图，包括slide-bar、生词switch、取词switch和用于显示的TextView。
+生词switch负责开启和关闭功能3：高亮在单词列表中出现的单词；
+取词switch负责开启和关闭功能6：单词实现点击高亮；
+slide-bar可以在任何时候滑动，最终停留的状态将影响高亮单词的等级；
+TextView实现了两边对齐排版，效果不错，但是每一段的首行有些不太理想。
 
 ![image](https://github.com/swallowguo/shanbaytask/blob/master/picture/TextFragment.png)
