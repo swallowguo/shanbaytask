@@ -10,13 +10,23 @@
         android:textSize="20sp"
         android:layout_alignParentTop="true"
         />
+    <ImageButton
+        android:id="@+id/listen_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listen"
+        android:layout_marginTop="120dip"
+        android:layout_centerHorizontal="true"
+
+        />
     <TextView
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="280dip"
+        android:layout_centerHorizontal="true"
         android:textSize="20sp"
-        android:layout_centerVertical="true"
-        android:textColor="#f00"
+        android:textColor="#2af"
         android:gravity="center"
         />
 </RelativeLayout>

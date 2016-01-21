@@ -9,26 +9,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import static android.widget.AdapterView.OnItemClickListener;
-
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import swallowguo.shanbaytask.R;
 
 
 public class MainActivity extends Activity
 {
-
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainactivity);
+        //加载列表项，用SimpleAdapter实现列表视图
         String[] Lesson_Id = this.getResources().getStringArray(R.array.lesson_id);
         String[] English_Title =this.getResources().getStringArray(R.array.english_title);
         String[] Chinese_Title =this.getResources().getStringArray(R.array.chinese_title);
@@ -53,7 +50,7 @@ public class MainActivity extends Activity
         list.setAdapter(simpleAdapter);
 
 
-        // 为ListView的列表项的单击事件绑定事件监听器
+        // 为ListView的列表项的单击事件绑定事件监听器，传入文章索引号
         list.setOnItemClickListener(new OnItemClickListener()
         {
             // 第position项被单击时激发该方法

@@ -1,36 +1,29 @@
 package swallowguo.shanbaytask.Fragments;
 
-/**
- * Created by Administrator on 2016/1/9 0009.
- */
 import android.content.res.TypedArray;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextPaint;
 import android.text.method.ScrollingMovementMethod;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-
-import swallowguo.shanbaytask.Fragments.TextFragment;
 import swallowguo.shanbaytask.R;
-
 /**
- * 知道碎片界面
- * @author wwj_748
- *
+ * 中文翻译文本Fragment
  */
 public class TranslationFragment extends Fragment {
     private int position,Width;
     private String transstring,showstring;
-    public static List<Integer> addCharPosition = new ArrayList<Integer>();  //增加空格的位置
     public static final char SPACE = ' '; //空格;
     public static List<Character> punctuation = new ArrayList<Character>(); //标点符号
+    TextView tv;
     //标点符号用于在textview右侧多出空间时，将空间加到标点符号的后面,以便于右端对齐
     static {
         punctuation.clear();punctuation.add(',');punctuation.add('.');punctuation.add('?');punctuation.add('!');punctuation.add(';');
@@ -41,7 +34,11 @@ public class TranslationFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         position = getArguments().getInt("lesson");
-        Width = getArguments().getInt("Width");
+        //获得屏幕宽度
+        DisplayMetrics dm = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics( dm );
+        Width = dm.widthPixels;
+        //根据索引号获得译文文本资源
         TypedArray ar = getActivity().getResources().obtainTypedArray(R.array.trans_id);
         int len = ar.length();
         int[] resIds = new int[len];
@@ -50,17 +47,17 @@ public class TranslationFragment extends Fragment {
         ar.recycle();
         InputStream inputStream = getActivity().getResources().openRawResource(resIds[position]);
         transstring = TextFragment.getString(inputStream);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.main_tab4_fragment, container, false);
-        TextView tv= (TextView)view.findViewById(R.id.translation);
-        Paint paint= tv.getPaint();
-        showstring=justifyText(paint,transstring,Width);
-        tv.setText(transstring);
+        tv= (TextView)view.findViewById(R.id.translation);
+        TextPaint paint = tv.getPaint();//获取texeview的画笔
+        //两端对齐
+        showstring=justifyChineseText(paint, transstring, Width);
+        tv.setText( showstring);
         tv.setMovementMethod(ScrollingMovementMethod.getInstance());
         return view;
     }
@@ -72,9 +69,9 @@ public class TranslationFragment extends Fragment {
      * @param Width 最大可用宽度
      * @return 处理后的文本
      */
-    private static String justifyText(Paint paint, String text, int Width) {
+    public static String justifyChineseText(Paint paint, String text, int Width) {
         if (text == null || text.length() == 0||Width == 0) {
-            return "";
+            return "no";
         }
         String[] lines = text.split("\\n");
         StringBuilder newText = new StringBuilder();
@@ -96,7 +93,7 @@ public class TranslationFragment extends Fragment {
      * @param addCharacterStartPosition 添加文本的起始位置
      * @return 处理后的文本
      */
-    private static String processLine(Paint paint, String text, int width, int addCharacterStartPosition) {
+    public static String processLine(Paint paint, String text, int width, int addCharacterStartPosition) {
         if (text == null || text.length() == 0) {
             return "";
         }
@@ -104,7 +101,7 @@ public class TranslationFragment extends Fragment {
         int startPosition = 0; // 起始位置
 
         float chineseWidth = paint.measureText("中");
-        float spaceWidth = paint.measureText(SPACE + "");
+        float spaceWidth = paint.measureText( SPACE+"");
 
         //最大可容纳的汉字，每一次从此位置向后推进计算
         int maxChineseCount = (int) (width / chineseWidth);
@@ -144,18 +141,15 @@ public class TranslationFragment extends Fragment {
                         int position = positions.get(k / positions.size());
                         for (int m = 0; m < times; m++) {
                             old.insert(position + m, SPACE);
-                            addCharPosition.add(position + m + addCharacterStartPosition);
                             use++;
                             number--;
                         }
                     }
                 }
 
-                //指针移动，将段尾添加空格进行分行处理
+                //指针移动，将段尾添加换行符进行分行处理
                 i = i + use;
-                old.insert(i, SPACE);
-                addCharPosition.add(i + addCharacterStartPosition);
-
+                old.insert(i, "\n");
                 startPosition = i + 1;
                 i = i + maxChineseCount;
             }

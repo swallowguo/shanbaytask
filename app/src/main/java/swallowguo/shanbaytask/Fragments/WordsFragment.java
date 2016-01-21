@@ -1,8 +1,5 @@
 package swallowguo.shanbaytask.Fragments;
 
-/**
- * Created by Administrator on 2016/1/9 0009.
- */
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,18 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import swallowguo.shanbaytask.R;
-
 /**
- * “我的”碎片页面
- * @author wwj_748
- *
+ * 词汇列表Fragment
  */
 public class WordsFragment extends Fragment {
     int position;
@@ -31,6 +23,7 @@ public class WordsFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         position = getArguments().getInt("lesson");
+        //根据索引号获取列表项资源
         TypedArray words_ar = getActivity().getResources().obtainTypedArray(R.array.words_id);
         TypedArray pos_ar = getActivity().getResources().obtainTypedArray(R.array.pos_id);
         TypedArray wordtrans_ar = getActivity().getResources().obtainTypedArray(R.array.wordtrans_id);
@@ -57,6 +50,7 @@ public class WordsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.main_tab3_fragment, container, false);
+       //SimpleAdapter加载列表项
         List<Map<String, Object>> listItems =
                 new ArrayList<Map<String, Object>>();
         for (int i = 0; i <words.length; i++)

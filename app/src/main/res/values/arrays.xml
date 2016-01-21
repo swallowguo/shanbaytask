@@ -14,7 +14,7 @@
         <item>Royal espionage</item><item>Silicon valley</item><item>How to grow old</item><item>Banks and their customers</item>
         <item>The search for oil</item><item>The Butterfly Effect</item><item>Secrecy in industry</item><item>The modern city</item>
         <item>A man-made disease</item><item>Porpoises</item><item>The stuff of dreams</item><item>Snake poison</item>
-        <item>William S. Hart and the early Western film</item><item>Knowledge and progress</item><item>Bird flight</item><item>Beatuy</item>
+        <item>William S Hart and the early Western film</item><item>Knowledge and progress</item><item>Bird flight</item><item>Beatuy</item>
         <item>Non-auditory effects of noise</item><item> The past life of the earth</item><item>The Vasa</item><item>Patients and doctors</item>
         <item>The hovercraft</item><item>Exploring the sea-floor</item><item>The sculptor speaks</item><item>Galileo reborn</item>
         <item>Education</item><item>Adolescence</item><item>Space odyssey</item><item>The cost of government</item>
@@ -38,18 +38,29 @@
     </string-array>
     <string-array name="question">
         <item>Why are legends handed down by storytellers useful?</item><item>How much of each year do spiders spend killing insects?</item>
-        <item>What was the main objective of early mountain climbers?</item><item>能看见东西的手</item>
-        <item>青年</item><item>体育的精神</item><item>蝙蝠</item><item>贸易标准</item>
-        <item>王室谍报活动</item><item>硅谷</item><item>如何安度晚年</item><item>银行和顾客</item>
-        <item>探寻石油</item><item>蝴蝶效应</item><item>工业中的秘密</item><item>现代城市</item>
-        <item>人为的疾病</item><item>海豚</item><item>话说梦的本质</item><item>蛇毒</item>
-        <item>威廉.S. 哈特和早期限的‘西部’影片</item><item>知识和进步</item><item>鸟的飞行方法</item><item>美</item>
-        <item>噪音的非听觉效应</item><item>地球上的昔日生命</item><item>“瓦萨”号</item><item>病人与医生</item>
-        <item>气垫船</item><item>海底勘探</item><item>雕塑家的语言</item><item>伽利略的复生</item>
-        <item>教育</item><item>青春期</item><item>太空探索</item><item>政府的开支</item>
-        <item>衰老过程</item><item>水和旅行者</item><item>作家之所需</item><item>海浪</item>
-        <item>训练大象</item><item>记录地震</item><item>宇宙中有外星人吗？</item><item>文化的模式</item>
-        <item>人和星系</item><item>业余爱好</item><item>大逃亡</item><item>规划股份投资</item>
+        <item>What was the main objective of early mountain climbers?</item><item>How did Vera discover she had this gift of second sight?</item>
+        <item>How does the writer like to treat young people?</item><item>How does the writer describe sport at the international level?</item>
+        <item>In what way does echo-location in bats play an utilitarian role?</item><item>What makes trading between rich countries difficult?</item>
+        <item>What important thing did King Alfred learn when he penetrated the Danish camp of Guthrum?</item><item>What does the computer industry thrive on apart from anarchy?</item>
+        <item>What, according to the author, is the best way to overcome the fear of death as you get older?</item><item>Why is there no risk to the customer when a bank prints the customer\'s name on his cheques?</item>
+        <item>What do oilmen want to achieve as soon as they strike oil?</item><item>Why do small errors make it impossible to predict the weather system with a high degree of accuracy?</item>
+        <item>Why is secrecy particularly important in the chemical industries?</item><item>What is the author\'s main argument about the modern city?</item>
+        <item>What factor helped to spread the disease of myxomatosis?</item><item>What would you say is the main characteristic of porpoises?</item>
+        <item>What is going on when a person experiences rapid eye-movements during sleep?</item><item>What are the two different ways in which snake poison acts?</item>
+        <item>How did William Hart\'s childhood prepare him for his acting role in Western films?</item><item>In what two areas have people made no \'progress\' at all?</item>
+        <item>What are the two main types of bird flight described by the author?</item><item>What do glimpses of beauty, either in nature or art, often suggest to the human mind?</item>
+        <item>What conclusion does the author draw about noise and health in this piece?</item><item>What is the main condition for the preservation of the remains of any living creature?</item>
+        <item>What happened to the \'Vasa\' almost immediately after she was launched?</item><item>What are patients looking for when they visit the doctor?</item>
+        <item>What is a hovercraft riding on when it is in motion?</item><item>How did people probably imagine the sea-floor before it was investigated?</item>
+        <item>What do you have to be able to do to appreciate sculpture?</item><item>What has modified out traditional view of Galileo in recent times?</item>
+        <item>Why is education democratic in bookless, tribal societies?</item><item>What do adolescents respect in parents?</item>
+        <item>When will it be possible for us to think seriously about colonising Mars?</item><item>What is the most important factor, both in government or business, for keeping running costs low?</item>
+        <item>What is one of the most unpleasant discoveries we make about ourselves as we get older?</item><item>What does this text describe?</item>
+        <item>How do professional writers ignore what they were taught at school about writing?</item><item>What false impression does an ocean were convey to the observer?</item>
+        <item>At what point does the training of a captive wild elephant begin?</item><item>What does a pen have to do to record on paper the vibrations generated by an earthquake?</item>
+        <item>What does the \'uniquely rational way\' for us to communicate with other intelligent beings in space depend on?</item><item>What influences us from the moment of birth?</item>
+        <item>What is the most influential factor in any human society?</item><item>Who, according to the author, are \'Fortune\'s favoured children\'?</item>
+        <item>What is one of the features of modern camping where nationality is concerned?</item><item>How does the older investor differ in his approach to investment from the younger investor?</item>
     </string-array>
     <string-array name="text_id">
         <item>@raw/lesson1</item><item>@raw/lesson2</item><item>@raw/lesson3</item><item>@raw/lesson4</item><item>@raw/lesson5</item><item>@raw/lesson6</item>

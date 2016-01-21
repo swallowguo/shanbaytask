@@ -1,7 +1,5 @@
 package swallowguo.shanbaytask.Activity;
 
-
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,25 +7,18 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import swallowguo.shanbaytask.Fragments.ListenFragment;
 import swallowguo.shanbaytask.Fragments.TextFragment;
 import swallowguo.shanbaytask.Fragments.TranslationFragment;
 import swallowguo.shanbaytask.Fragments.WordsFragment;
 import swallowguo.shanbaytask.R;
-
 /**
- * 主Activity
- *
- * @author wwj_748
- *
+ * 含有3个Fragment的Activity
  */
 public class TextActivity extends FragmentActivity  {
-
     // 三个tab布局
     private RelativeLayout rl_listen,rl_text,rl_words,rl_trans;
     // 底部标签切换的Fragment
@@ -36,17 +27,16 @@ public class TextActivity extends FragmentActivity  {
     private ImageView listenImg, textImg, wordsImg,transImg;
     // 底部标签的文本
     private TextView listenTv, textTv, wordsTv,transTv;
-    private View line;
-    private int Width;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.textactivity);
         Intent intent=getIntent();
         int position=intent.getIntExtra("position", -1);
-
-
         initUI();
+        Bundle arguments = new Bundle();
+        arguments.putInt("lesson", position);
+        initTab(arguments);
         rl_listen.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,19 +61,7 @@ public class TextActivity extends FragmentActivity  {
                 clickTab4Layout();
             }
         });
-        ViewTreeObserver vto = line.getViewTreeObserver();
-        vto.addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
-            public boolean onPreDraw() {
-                Width = line.getMeasuredWidth();
-                return true;
-            }
-        });
-        Bundle arguments = new Bundle();
-        arguments.putInt("lesson", position);
-        arguments.putInt("Width", Width);
-        initTab(arguments);
     }
-
     /**
      * 初始化UI
      */
@@ -100,26 +78,25 @@ public class TextActivity extends FragmentActivity  {
         textTv = (TextView) findViewById(R.id.tv_text);
         wordsTv = (TextView) findViewById(R.id.tv_vocabulary);
         transTv = (TextView) findViewById(R.id.tv_translation);
-        line=(View)findViewById(R.id.line);
     }
     /**
      * 初始化底部标签
      */
     private void initTab(Bundle arguments)
     {
+       // commit Fragmrnt
         listenFragment = new ListenFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, listenFragment).commit();
         textFragment = new TextFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, textFragment).commit();
         wordsFragment = new WordsFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, wordsFragment).commit();
         transFragment=new TranslationFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, transFragment).commit();
         listenFragment.setArguments(arguments);
         textFragment.setArguments(arguments);
         wordsFragment.setArguments(arguments);
         transFragment.setArguments(arguments);
-        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, listenFragment).commit();
-        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, textFragment).commit();
-        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, wordsFragment).commit();
-        getSupportFragmentManager().beginTransaction().add(R.id.content_layout, transFragment).commit();
-
         currentFragment = listenFragment;
         clickTab1Layout();
     }

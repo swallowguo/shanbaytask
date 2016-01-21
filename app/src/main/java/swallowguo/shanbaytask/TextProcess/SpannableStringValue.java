@@ -5,7 +5,7 @@ import android.text.SpannableStringBuilder;
 import java.io.Serializable;
 
 /**
- * Created by Administrator on 2016/1/14 0014.
+ * 自定义实现可序列化接口的SpannableStringValue类，用于向bundle写入可序列化数据
  */
 public class SpannableStringValue implements Serializable{
     private SpannableStringBuilder spannablestring0,spannablestring1,spannablestring2,
@@ -26,7 +26,9 @@ public class SpannableStringValue implements Serializable{
     public SpannableStringBuilder getstring2(){
         return spannablestring2;
     }
-    public SpannableStringBuilder getstring3() { return spannablestring3; }
+    public SpannableStringBuilder getstring3() {
+        return spannablestring3;
+    }
     public SpannableStringBuilder getstring4(){
         return spannablestring4;
     }
