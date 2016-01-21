@@ -1,2 +1,9 @@
 # shanbaytask
-This repository stores the Android project for shanbay task 
+这是一个简易分级阅读程序，实现了以下功能：
+
+1. 打开后看到文章列表
+2. 点击列表某项，打开文章
+3. 文章界面有一个按钮，点击则在文章中高亮在单词列表中出现的单词
+4. 文章界面有一个slide-bar，从0到6（对应单词表中每个单词信息的level)，可以拖动过滤高亮的单词。
+5. 文章内容实现两边对齐；
+6. 单词实现点击高亮；
