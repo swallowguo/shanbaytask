@@ -9,6 +9,8 @@ import android.text.style.CharacterStyle;
 import android.text.style.ForegroundColorSpan;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import swallowguo.shanbaytask.Activity.MainActivity;
 import swallowguo.shanbaytask.Fragments.TextFragment;
 
 /**
@@ -54,9 +56,11 @@ public class MatchThread implements Runnable {
         Message msg=new Message();
         msg.what=0x123;
         Bundle bundle=new Bundle();
-        bundle.putSerializable("spvalue",SpanValue);
+        bundle.putSerializable("spvalue", SpanValue);
         msg.setData(bundle);
+       if(MainActivity.flag==2){
         TextFragment.handler.sendMessage(msg);
+       }
     }
     //匹配+高亮方法，匹配小于等于各level生词的spannablestring数组并返回
     public  SpannableStringBuilder[] highlight(String text, String[] target) {

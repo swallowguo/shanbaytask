@@ -31,6 +31,7 @@ public class TextActivity extends FragmentActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.textactivity);
+        MainActivity.flag=2;
         Intent intent=getIntent();
         int position=intent.getIntExtra("position", -1);
         initUI();

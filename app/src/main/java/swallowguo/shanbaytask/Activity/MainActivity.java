@@ -20,11 +20,13 @@ import swallowguo.shanbaytask.R;
 
 public class MainActivity extends Activity
 {
+    public static int flag;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainactivity);
+        flag=1;
         //加载列表项，用SimpleAdapter实现列表视图
         String[] Lesson_Id = this.getResources().getStringArray(R.array.lesson_id);
         String[] English_Title =this.getResources().getStringArray(R.array.english_title);
@@ -63,5 +65,10 @@ public class MainActivity extends Activity
                 startActivity(intent);
             }
         });
+    }
+    @Override
+    public void onResume(){
+        super.onResume();
+        flag=1;//MainActivity回到前台时改变flag，MatchThread将不向TextActivity发送消息，否则会导致程序崩溃
     }
 }

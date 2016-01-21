@@ -33,16 +33,12 @@
             android:id="@+id/match_switch"
             android:layout_width="54dp"
             android:layout_height="wrap_content"
-            android:switchMinWidth="0dp"
-            android:switchPadding="1dp"
             android:textOff="生词"
             android:textOn="生词" />
         <Switch
             android:id="@+id/getwords_switch"
             android:layout_width="54dp"
             android:layout_height="wrap_content"
-            android:switchMinWidth="0dp"
-            android:switchPadding="1dp"
             android:textOff="取词"
             android:textOn="取词" />
     </LinearLayout>
